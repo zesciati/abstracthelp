@@ -70,3 +70,43 @@ html {
   border: none;
   margin-left: 12px;
 }
+/* konten */
+
+.konten-search{
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: flex-end; */
+  background-color:#dadbf1;
+  /* padding: 100px; */
+  height: 396.6px;
+  /* align-content: space-between; */
+}
+.container-search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: wheat; */
+  height: 201.6px;
+  /* margin-top: 60px; */
+  /* align-content: space-between; */
+  flex-direction: column;
+
+}
+.how-can-we-help{
+  /* padding-top: 5%; */
+  margin-top: 10%;
+  font-size: 80px;
+  font-family: 'GT America Standard', sans-serif;
+  /* display: block; */
+  height: fit-content;
+  /* background-color: wheat; */
+}
+.search-bar{
+  /* display: block; */
+  width: 60%;
+  height: 200%;
+  border: 1px solid blue;
+  border-radius: 3px;
+  background-color:aquamarine;
+
+}

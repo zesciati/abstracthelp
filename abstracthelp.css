@@ -24,16 +24,16 @@ html {
   margin-left: 6.25rem;
   /* background-color: white; */
 }
-.abstract-logo-mark{
+/* .abstract-logo-mark{
 
-}
+} */
 .abstract-logo-wordmark{
   background-color: white;
   fill: white;
 }
-.navkiri{
+/* .navkiri{
 
-}
+} */
 .help-center{
   color: white;
   font-size: var(--font);
@@ -128,5 +128,45 @@ html {
   position: relative;
   right: 25px;
   top: 15px;
-  /* background-color: #4C5FD5; */
+}
+/* footer */
+
+.footer{
+  height: 402px;
+  background-color: #000;
+  color: white;
+  grid-template-rows: repeat(2, 50%);
+
+}
+.footer-layout{
+  display: grid;
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: repeat(5, 20%);
+  padding-top: 40px;
+  width: 80%;
+  margin-left: 6.5rem;
+}
+/* .footer-container{
+  
+} */
+.footer-link{
+  text-decoration: none;
+  color: white;
+}
+.footer-container-down{
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  
+}
+.footer-container-lower{
+  display: flex;
+  grid-column-start: 5;
+  flex-direction: column; 
+  /* margin-left:3rem; */
+}
+.footer-link-lower{
+  text-decoration: none;
+  color: white;
+  
 }

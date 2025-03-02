@@ -171,11 +171,14 @@ margin-top: 7rem;
   width: 70%;
   margin-left:10% ;
 }
-.konten-link{
+.konten-link, .konten-link2{
   display: flex;
   /* background-color: wheat; */
   height: 200px;
 }
 .text{
   margin-left: 10px;
+}
+.konten-link2{
+  width: 40%;
 }

@@ -22,7 +22,6 @@ html {
   width: 230px;
   margin-top: 20px;
   margin-left: 6.25rem;
-  /* background-color: white; */
 }
 /* .abstract-logo-mark{
 
@@ -39,12 +38,10 @@ html {
   font-size: var(--font);
   text-decoration: none;
   margin-top: 600px ;
-  /* background-color: wheat; */
-  /* width: 1px; */
+  
 }
 .navkanan{
-  /* margin-right: 10%; */
-  /* background-color: wheat; */
+ 
   margin: 20px 10% 0 0;
 }
 .sub{
@@ -54,8 +51,7 @@ html {
   background-color: #191A1B;
   border: 1px solid white;
   border-radius: 10px;
-  /* width: 15rem;
-  height: 3rem; */
+  
   padding-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
@@ -73,44 +69,29 @@ html {
 /* konten */
 
 .konten-search{
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: flex-end; */
   background-color:#dadbf1;
-  /* padding: 100px; */
   height: 396.6px;
-  /* align-content: space-between; */
 }
 .container-search{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: wheat; */
-  /* height:fit-content; */
-  /* margin-top: 60px; */
-  /* align-content: space-between; */
+  
   flex-direction: column;
 
 }
 .how-can-we-help{
-  /* padding-top: 5%; */
   margin-top: 5%;
   font-size: 80px;
   font-family: 'GT America Standard', sans-serif;
-  /* display: block; */
   height: fit-content;
-  /* background-color: wheat; */
 }
 .search-bar{
-  /* display: block; */
   width: 50%;
-  /* height: 100%; */
   padding-bottom: 35px;
   border: 1px solid blue;
   border-radius: 3px;
-  /* background-color: wheat;   */
   background-color: white;  
-  /* height: 5vh; */
 
 }
 .search{
@@ -146,6 +127,7 @@ html {
   padding-top: 40px;
   width: 80%;
   margin-left: 6.5rem;
+  /* padding-bottom: 40px; */
 }
 /* .footer-container{
   
@@ -163,10 +145,37 @@ html {
   display: flex;
   grid-column-start: 5;
   flex-direction: column; 
-  /* margin-left:3rem; */
 }
 .footer-link-lower{
   text-decoration: none;
   color: white;
   
+}
+.hitam{
+  color: #000;
+}
+
+/* main */
+.konten-utama{
+margin-top: 7rem;
+/* background-color: #4C5FD5; */
+  /* height: 854px; */
+
+
+}
+.konten-pilihan{
+  /* height: 854px; */
+  display: flex;
+  /* background-color: wheat; */
+  justify-content: space-between;
+  width: 70%;
+  margin-left:10% ;
+}
+.konten-link{
+  display: flex;
+  /* background-color: wheat; */
+  height: 200px;
+}
+.text{
+  margin-left: 10px;
 }

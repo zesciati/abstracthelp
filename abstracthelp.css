@@ -103,6 +103,7 @@ html {
   outline: none;
   height: 4vh ;
   font-size: 1.3rem;
+  word-wrap: break-word;
 
 }
 .right-arrow{
@@ -168,17 +169,50 @@ margin-top: 7rem;
   display: flex;
   /* background-color: wheat; */
   justify-content: space-between;
-  width: 70%;
+  width: 80%;
   margin-left:10% ;
+  flex-wrap: wrap;
 }
-.konten-link, .konten-link2{
+.konten-link{
   display: flex;
   /* background-color: wheat; */
   height: 200px;
+  width: 50%;
+
 }
 .text{
   margin-left: 10px;
 }
-.konten-link2{
+/* .konten-link2{
   width: 40%;
+} */
+
+@media screen and (max-width:1024px){
+ 
+  .search-bar{
+    padding-bottom: 0px;
+  }
+  .right-arrow{
+    left:450px;
+    top: -7px;
+  }
+  .konten-pilihan{
+    width: 80%;
+  }
+  .konten-link{
+    /* background-color: wheat; */
+    width: 50%;
+    height: 260px;
+  }
+  .search{
+    top:25px;
+  }
+
+  img{
+    width: 50px;
+    height: 50px;
+  }
+  /* .text2{
+    font-size: 200000px;
+  } */
 }
